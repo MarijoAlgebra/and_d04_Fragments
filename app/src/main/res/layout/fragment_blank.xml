@@ -1,27 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?>
-
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     android:orientation="vertical"
-    tools:context="org.bubulescu.fragments.MainActivity">
+    tools:context="org.bubulescu.fragments.BlankFragment">
 
-    <fragment
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:name="org.bubulescu.fragments.BlankFragment"
-        android:id="@+id/fBlangfragment"
-        xmlns:tools="http://schemas.android.com/tools"
+        android:hint="ime"
+        android:id="@+id/etIme"
         />
-
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="prezime"
+        android:id="@+id/etPrezime"
+        />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Open activity"
-        android:id="@+id/bOpenactivity"
+        android:text="Save"
+        android:id="@+id/bSave"
         />
 
 </LinearLayout>
